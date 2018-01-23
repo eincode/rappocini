@@ -22,6 +22,6 @@ app.get('/', function (req, res) {
 	res.json({ message: 'success' })
 })
 
-app.listen(port, function () {
+app.listen(port, '0.0.0.0', function () {
 	console.log('Node is running on port: ', port)
 })
