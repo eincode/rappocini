@@ -27,6 +27,7 @@ function getTypeNum(type) {
 	case 'KepastianJadwalPelayanan': return 12
 	case 'KenyamananLingkungan': return 13
 	case 'KeamananPelayanan': return 14
+	case 'Overall': return 15
 	}
 }
 
