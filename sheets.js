@@ -13,20 +13,20 @@ function getStarOffset(star) {
 
 function getTypeNum(type) {
 	switch (type) {
-	case 'prosedurpelayanan': return 1
-	case 'persyaratanpelayanan': return 2
-	case 'kejelasanpetugas': return 3
-	case 'kedisiplinanpetugas': return 4
-	case 'tanggungjawab': return 5
-	case 'kemampuanpetugas': return 6
-	case 'kecepatanpelayanan': return 7
-	case 'keadilanmendapatkan': return 8
-	case 'kesopanandan': return 9
-	case 'kewajaranbiaya': return 10
-	case 'kepastianbiaya': return 11
-	case 'kepastianjadwal': return 12
-	case 'kenyamananlingkungan': return 13
-	case 'keamananpelayanan': return 14
+	case 'ProsedurPelayanan': return 1
+	case 'PersyaratanPelayanan': return 2
+	case 'KejelasanPetugasPelayanan': return 3
+	case 'KedisiplinanPetugasPelayanan': return 4
+	case 'TanggungjawabPetugasPelayanan': return 5
+	case 'KemampuanPetugasPelayanan': return 6
+	case 'KecepatanPelayanan': return 7
+	case 'KeadilanMendapatkanPelayanan': return 8
+	case 'KesopanandanKeramahanPetugas': return 9
+	case 'KewajaranBiayaPelayanan': return 10
+	case 'KepastianBiayaPelayanan': return 11
+	case 'KepastianJadwalPelayanan': return 12
+	case 'KenyamananLingkungan': return 13
+	case 'KeamananPelayanan': return 14
 	}
 }
 
