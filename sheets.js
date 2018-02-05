@@ -69,6 +69,7 @@ async function getCurrentRating(auth, range, cb) {
 	sheets.spreadsheets.values.get({
 		auth: auth,
 		spreadsheetId: SPREADSHEET_ID,
+		sheetId: 505695274,
 		range: range
 	}, function(err, result) {
 		if (err) {
@@ -89,7 +90,7 @@ async function writeRating(auth, type, star) {
 		let request = {
 			auth: auth,
 			spreadsheetId: SPREADSHEET_ID,
-			sheetId: '505695274',
+			sheetId: 505695274,
 			range: range,
 			valueInputOption: 'USER_ENTERED',
 			resource: {
