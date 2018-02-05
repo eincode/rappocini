@@ -89,6 +89,7 @@ async function writeRating(auth, type, star) {
 		let request = {
 			auth: auth,
 			spreadsheetId: SPREADSHEET_ID,
+			sheetId: 505695274,
 			range: range,
 			valueInputOption: 'USER_ENTERED',
 			resource: {
