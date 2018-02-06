@@ -70,7 +70,7 @@ async function getCurrentRating(auth, range, cb) {
 		auth: auth,
 		spreadsheetId: SPREADSHEET_ID,
 		//sheetId: 505695274,
-		range: range
+		range: 'Sheet2!'+range
 	}, function(err, result) {
 		if (err) {
 			console.log('API Error: '+err)
@@ -91,7 +91,7 @@ async function writeRating(auth, type, star) {
 			auth: auth,
 			spreadsheetId: SPREADSHEET_ID,
 			//sheetId: 505695274,
-			range: range,
+			range: 'Sheet2!'+range,
 			valueInputOption: 'USER_ENTERED',
 			resource: {
 				values: [[rating]]
